@@ -1,0 +1,123 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #222222;
+    width: 1024px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+nav{
+   justify-content:space-around;
+}
+a{
+    color: #F3F3F3;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    width: 1019px;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro1{
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('imagenes/delivery.jpg');
+    border-radius: 5px;
+    color: #FC200C;
+    border: 2px solid yellow;
+    font-size: 15px;
+    text-indent: 10px;
+}
+.letrablanca{
+    color: #FFFFFF;
+}
+.cuadro2{
+    width: 491px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #FC200C;
+    border: 2px solid yellow;
+    font-size: 15px;
+    align-items: center;
+    justify-content:center;
+}
+ol{
+    font-size: 13px;
+    color:#222222;
+    line-height: 25px;
+}
+.letraseccion2{
+    color: #222222;
+}
+.imagen{
+    order:1;
+    height: 140px;
+}
+.titulo{
+    align-self: flex-start;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 150px;
+    background-color:#222222;
+}
+.ultimaimg{
+    height: 70px;
+}
+ul{
+    line-height: 30px;
+}
+@media(max-width:300px){
+    header{
+        flex-direction: column;
+        text-align: left;
+        padding-bottom: 20px;
+        align-items: left;
+        background-color: #222222;
+        width: 300px;
+        height: 120px;
+        left: 0px;
+        top: 0px;
+    }
+    main{
+       flex-direction: column;
+        width: 300px;
+        height: 650px;
+        
+        align-items: center;
+    }
+    .cuadro1{
+        width: 300px;
+        height: 350px;
+        align-items: left;
+       
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-image: url('imagenes/delivery.jpg');
+        background-size: auto;
+        border-radius: 5px;
+        color: #FC200C;
+        border: 2px solid yellow;
+        font-size: 15px;
+        text-indent: 10px;
+    }
+    
+
